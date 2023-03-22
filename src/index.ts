@@ -13,7 +13,7 @@ const client = new Client({
 
 // create openai api instance
 const openai = new OpenAIApi(new Configuration({
-    apiKey: "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",
+    apiKey: "",
 }));
 
 client.on("messageCreate", async (message: Message) => {
@@ -55,7 +55,7 @@ client.once('ready', () => {
 });
 
 // Login to Discord with your client's token
-client.login("MTAwNDU2NTc0MTcyODcwNjc1Mg.G-_4QY.vo2cLuZb-bIK3iiBoKrk1fb76dSt6fd3eBTcvE");
+client.login("");
 
 // 8
 
